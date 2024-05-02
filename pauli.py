@@ -21,7 +21,7 @@ eigenvalues_x, eigenvectors_x = eigen(sigma_x)
 eigenvalues_y, eigenvectors_y = eigen(sigma_y)
 eigenvalues_z, eigenvectors_z = eigen(sigma_z)
 
-# Calculate the diagonal and diagolized of Pauli matrices
+# Calculate the diagonal and diagonalized matrices of Pauli matrices
 diagonal_x, diagonalized_x = diagonal(eigenvalues_x,eigenvectors_x,sigma_x)
 diagonal_y, diagonalized_y = diagonal(eigenvalues_y,eigenvectors_y,sigma_y)
 diagonal_z, diagonalized_z = diagonal(eigenvalues_z,eigenvectors_z,sigma_z)
